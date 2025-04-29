@@ -140,7 +140,7 @@ header h1 {
     height: 50vh;
     padding: 0;
     background-position: center;
-    background-size: cover;
+    background-size: 150%;
   }
 
   .intro-text h2 {
@@ -168,6 +168,12 @@ header h1 {
     padding: 2rem 1rem;
   }
 
+  .produit-image, .produit-texte {
+    width: 100%; /* Fais en sorte que les éléments prennent toute la largeur du bloc */
+    padding: 0 1rem; /* Ajoute des espacements internes pour éviter que l'image et le texte ne touchent les bords */
+    box-sizing: border-box;
+  }
+
   .produit-texte {
     text-align: left;
     margin-top: 1rem;
@@ -176,7 +182,16 @@ header h1 {
     max-width: 600px;
     box-sizing: border-box;
   }
-
+ .btn-produit {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #171717;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
  
 }
 
