@@ -155,6 +155,20 @@ header h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 
+   .produit {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .produit-texte {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+
  
 }
 
