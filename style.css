@@ -143,6 +143,10 @@ header h1 {
     background-size: cover;
   }
 
+  .intro-text h2 {
+  font-size: 1.2rem;
+}
+
   .intro-text {
     position: absolute;
     top: 50%;
