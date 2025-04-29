@@ -44,6 +44,7 @@ header h1 {
   padding: 2rem;
   max-width: 400px;
   text-align: left;
+  padding-right: 6rem;
 }
 
 .intro-text h2 {
