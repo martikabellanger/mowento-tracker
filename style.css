@@ -129,6 +129,12 @@ header h1 {
 }
 
 @media (max-width: 768px) {
+
+  header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+  
   /* Bloc 1 : Intro */
   .intro {
     height: 50vh;
