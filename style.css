@@ -164,7 +164,7 @@ header h1 {
   .produit-texte {
     text-align: left;
     margin-top: 1rem;
-    padding: 0;
+    padding: 1rem;
     width: 100%;
     max-width: 600px;
   }
