@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #171717;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Bloc 1 : Intro */
+.intro {
+  position: relative;
+  height: 60vh;
+  background: url('images/tracker-header.jpg') no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.intro-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  max-width: 400px;
+  text-align: left;
+}
+
+.intro-text h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+/* Bloc 2 : Informations */
+.informations {
+  background-color: #171717;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.informations h3 {
+  font-size: 1.5rem;
+}
+
+/* Bloc 3 : Réglementation */
+.reglementation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+}
+
+.reglementation-texte {
+  flex: 1;
+  padding-right: 2rem;
+  min-width: 300px;
+}
+
+.reglementation-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.reglementation-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Bloc 4 : Découvrez */
+.decouvrez {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.btn-decouvrez {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #171717;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Bloc 5 : Produit */
+.produit {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+}
+
+.produit-image, .produit-texte {
+  flex: 1;
+  min-width: 300px;
+}
+
+.produit-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.produit-texte {
+  padding-left: 2rem;
+}
+
+.btn-produit {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #171717;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
