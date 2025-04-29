@@ -140,6 +140,7 @@ header h1 {
     height: 50vh;
     padding: 0;
     background-position: left center;
+    background-size: 200% auto;
   }
 
   .intro-text {
