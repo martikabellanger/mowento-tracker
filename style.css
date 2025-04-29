@@ -138,10 +138,11 @@ header h1 {
   
   /* Bloc 1 : Intro */
   .intro {
+    background-image: url('images/tracker-mobile.jpg');
     height: 50vh;
     padding: 0;
     background-position: center;
-    background-size: 250%;
+    background-size: cover;
   }
 
   .intro-text h2 {
