@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #171717;
   line-height: 1.6;
   overflow-x: hidden;
+  padding: 0;
+  width: 100%;
 }
 
 /* Header */
