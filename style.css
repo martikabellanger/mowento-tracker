@@ -139,8 +139,8 @@ header h1 {
   .intro {
     height: 50vh;
     padding: 0;
-    background-position: left center;
-    background-size: 200% auto;
+    background-position: center;
+    background-size: cover;
   }
 
   .intro-text {
@@ -162,7 +162,7 @@ header h1 {
   }
 
   .produit-texte {
-    text-align: center;
+    text-align: left;
     margin-top: 1rem;
     padding: 0;
     width: 100%;
