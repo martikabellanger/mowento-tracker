@@ -127,3 +127,58 @@ header h1 {
   font-weight: bold;
   border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+  /* Bloc 1 : Intro */
+  .intro {
+    height: 50vh;
+    padding: 0;
+  }
+
+  .intro-text {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    left: auto;
+    transform: translateY(-50%);
+    max-width: 90%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Bloc 3 : Réglementation */
+  .reglementation {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .reglementation-texte,
+  .reglementation-image {
+    padding: 0;
+    margin: 0 0 2rem 0;
+  }
+
+  /* Bloc 4 : Découvrez */
+  .decouvrez {
+    padding: 2rem 1rem;
+  }
+
+  .btn-decouvrez {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Bloc 5 : Produit */
+  .produit {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .produit-texte {
+    padding: 0;
+    margin-top: 2rem;
+  }
+}
+
+
