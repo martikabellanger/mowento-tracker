@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Système - Mowento Trackers</title>
+  <link rel="stylesheet" href="style.css"> <!-- si tu as un fichier CSS commun -->
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #171717;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background-color: #171717;
+      color: white;
+      padding: 1.5rem 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #444;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    input[type="text"] {
+      padding: 1rem;
+      width: 80%;
+      max-width: 400px;
+      font-size: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 30px;
+      outline: none;
+      text-align: center;
+    }
+
+    .error {
+      color: red;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header commun -->
+  <header>
+    <h1>MOWENTO TRACKERS</h1>
+  </header>
+
+  <!-- Contenu principal -->
+  <div class="container">
+    <h2>Entrez votre n° de série SIM</h2>
+    <p>Veuillez entrer le numéro de série pour vérifier si un tracker est détecté.</p>
+    
+    <input type="text" id="simInput" placeholder="Ex : 08917795" onkeydown="handleEnter(event)" />
+    <div id="errorMessage" class="error"></div>
+  </div>
+
+  <script>
+    function handleEnter(e) {
+      if (e.key === 'Enter') {
+        const sim = document.getElementById('simInput').value.trim();
+        const errorDiv = document.getElementById('errorMessage');
+        if (sim === '08917795') {
+          window.location.href = 'sim.html';
+        } else {
+          errorDiv.textContent = 'Numéro SIM inconnu';
+        }
+      }
+    }
+  </script>
+
+</body>
+</html>
