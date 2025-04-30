@@ -213,7 +213,13 @@ header h1 {
     font-weight: bold;
     border-radius: 5px;
   }
- 
+
+@media (max-width: 768px) {
+  .titre-systeme {
+    margin-top: 1rem; /* ou même 0 si besoin */
+  }
+}
+
 }
 
 
