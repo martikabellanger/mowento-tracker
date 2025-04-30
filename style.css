@@ -215,6 +215,10 @@ header h1 {
   }
 
 @media (max-width: 768px) {
+  .contenu-systeme {
+    margin-top: 0;
+    padding-top: 1rem; /* ou 0.5rem, tu ajustes selon ce qui te semble visuellement équilibré */
+  }
   .titre-systeme {
     margin-top: 0rem;
   }
