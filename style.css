@@ -216,7 +216,7 @@ header h1 {
 
 @media (max-width: 768px) {
   .titre-systeme {
-    margin-top: 1rem; /* ou même 0 si besoin */
+    margin-top: 0rem;
   }
 }
 
