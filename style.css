@@ -44,11 +44,11 @@ header h1 {
   padding: 2rem;
   max-width: 400px;
   text-align: left;
-}
-
-@media (min-width: 769px) {
+  @media (min-width: 769px) {
   margin-right: 8rem;
 }
+}
+
   
 .intro-text h2 {
   margin-top: 0;
